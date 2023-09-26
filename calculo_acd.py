@@ -114,7 +114,7 @@ while True:
         
         componente_real = velocidade_vento * componente
 
-        print('O ângulo de correção de deriva real é {:.2f} graus'.format(acd_real))
+        print('O ângulo de correção de deriva real é {:.2f} graus'.format(abs(acd_real)))
         #print()
         #print('O valor da componente é: {:.2f}'.format(componente))
 
